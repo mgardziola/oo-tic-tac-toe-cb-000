@@ -121,7 +121,7 @@ class TicTacToe
   def play 
     puts "Please enter 1-9:"
     turn 
-    over? ? winner : turn
-    
+    over? ? puts "Congratulations #{winner} : turn
+    draw? ? 
   end
   
