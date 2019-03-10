@@ -121,6 +121,7 @@ class TicTacToe
     while !over? 
       puts "Please enter 1-9:"
       turn 
+    end 
     else 
       if won?
         puts "Congratulations #{winner}"
