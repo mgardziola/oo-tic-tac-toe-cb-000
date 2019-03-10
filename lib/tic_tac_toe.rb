@@ -118,7 +118,7 @@ class TicTacToe
   end 
   
   def play()
-    if !over? 
+    while !over? 
       puts "Please enter 1-9:"
       turn 
     else 
