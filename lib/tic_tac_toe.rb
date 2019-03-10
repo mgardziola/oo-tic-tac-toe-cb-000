@@ -122,12 +122,12 @@ class TicTacToe
       puts "Please enter 1-9:"
       turn 
     end 
-    else 
-      if won?
-        puts "Congratulations #{winner}"
-      elsif draw?
-        puts "Cat's Game!"
-      end
+    
+    if won?
+      puts "Congratulations #{winner}"
+    elsif draw?
+      puts "Cat's Game!"
+    end
   
   end
   
