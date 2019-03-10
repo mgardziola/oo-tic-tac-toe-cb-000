@@ -119,7 +119,7 @@ class TicTacToe
   
   end
   
-  def play()
+  def play
     puts "Please enter 1-9:"
     turn 
 
